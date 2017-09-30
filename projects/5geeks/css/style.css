@@ -1,0 +1,320 @@
+/*
+*
+    By:- AbdElRahman Ahmad
+    FB:- fb.com/AbdElRahman.IO
+    	 fb.com/AbdElRahman.IO.page
+    in:- eg.linkedin.com/in/AbdElRahmanIO
+*
+*/
+
+/* font */
+@font-face{font-family:'DroidKufi-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'DroidKufi-Regular'; src: url("../fonts/DroidKufi-Regular.ttf")}
+/* font */
+
+
+body {
+    font-family: 'DroidKufi-Regular';
+    font-size: 12px;
+    background-color: white;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+
+
+/*
+	header
+*/
+
+header#main {
+	background-color: white;
+}
+header#main .navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+header#main .navbar {
+	border: 0;
+	min-height: 140px;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+header#main .navbar-default {
+	background-image: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+header#main .navbar-nav {
+	padding-top: 58px;
+}
+header#main .navbar-default .navbar-collapse,
+header#main .navbar-default .navbar-form {
+	border-color: transparent;
+}
+header#main .navbar-brand {
+	padding-top: 0;
+}
+header#main .navbar-brand img {
+	width: 200px;
+}
+header#main .navbar-default .navbar-nav>li>a {
+	color: black;
+	font-size: 14px;
+}
+header#main .navbar-default .navbar-nav>.active>a,
+header#main .navbar-default .navbar-nav>.active>a:focus,
+header#main .navbar-default .navbar-nav>.active>a:hover,
+header#main .navbar-default .navbar-nav>li>a:hover,
+header#main .navbar-default .navbar-nav>li>a:focus,
+header#main .navbar-default .navbar-nav>.active>a,
+header#main .navbar-default .navbar-nav>.open>a,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+	background-color: #F05A5B;
+	color: black;
+	background-image: none;
+}
+
+/*
+	header
+*/
+
+
+
+
+
+
+
+
+
+/*
+	slideshow
+*/
+
+.slideshow .item img {
+	width: 100%;
+	height: 500px;
+}
+.slideshow .carousel-caption {
+	background-color: rgba(0, 0, 0, 0.50);
+	right: auto;
+	left: auto;
+	width: 100%;
+	bottom: 0;
+}
+.slideshow .item h3 {
+	font-size: 35px;
+}
+.slideshow .item p {
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+}
+
+/*
+	slideshow
+*/
+
+
+
+
+
+
+
+
+
+/*
+	welcome
+*/
+
+.welcome {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.welcome h1 {
+	color: black;
+	font-size: 40px;
+	margin: 0;
+	font-weight: bold;
+}
+.welcome h1 span {
+	color: #f05a5b;
+}
+.welcome p {
+	padding-top: 20px;
+	margin: 0;
+	font-size: 18px;
+	color: black;
+	line-height: 35px;
+}
+
+/*
+	welcome
+*/
+
+
+
+
+
+
+
+
+
+/*
+	curses
+*/
+
+.curses {
+
+}
+.curse {
+	background-color: #ddd;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.curse i {
+	color: black;
+	font-size: 60px;
+}
+.curse h2 {
+	font-size: 28px;
+	color: black;
+	margin-bottom: 25px;
+}
+.curse p {
+	line-height: 25px;
+	font-size: 14px;
+	color: black;
+	margin-bottom: 25px;
+}
+.curse1 {background-color: #f05a5b;}
+.curse2 {background-color: #4dbeed;}
+.curse button {
+	border: 0;
+	background-color: white;
+	border-radius: 0;
+	padding: 12px 25px;
+	color: black;
+	font-size: 16px;
+}
+.curse1 button:hover {
+	background-color: #4dbeed;
+}
+.curse2 button:hover {
+	background-color: #f05a5b;
+}
+
+
+/*
+	curses
+*/
+
+
+
+
+
+
+
+
+
+/*
+	wdo
+*/
+
+.wdo {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.servs {
+	padding-top: 25px;
+}
+.serv {
+	min-height: 150px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.serv img {
+	float: right;
+	border-radius: 50%;
+	border: 1pt solid #F05A5B;
+	padding: 10px;
+	margin-left: 15px;
+	transition: all 0.5s ease-in-out;
+}
+.serv:hover img {
+	background-color: #F05A5B;
+}
+.serv h2 {
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	color: black;
+	transition: all 0.5s ease-in-out;
+}
+.serv:hover h2 {
+	color: #4DBEED;
+}
+.serv p {
+	text-align: right;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+/*
+	wdo
+*/
+
+
+
+
+
+
+
+
+
+/*
+	teamwork
+*/
+
+.teamwork {
+	background-color: #4dbeed;
+	padding-bottom: 100px;
+}
+.teamworkhead h1 {
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.teamworkhead h1:before,
+.teamworkhead h1:after {
+	content: "--";
+	color: white;
+}
+.meme {
+	margin-bottom: 25px;
+}
+.meme img {
+	float: right;
+	border-radius: 50%;
+	margin-left: 15px;
+}
+.meme h3 {
+	margin-bottom: 0;
+	line-height: 30px;
+}
+.meme p {
+	padding-top: 15px;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+/*
+	teamwork
+*/
